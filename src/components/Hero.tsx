@@ -27,7 +27,7 @@ const Hero: React.FC = () => {
         <div className="blob blob-3"></div>
       </div>
 
-      <Container className="hero-content mt-2">
+      <Container className="hero-content my-5">
         <Row className="align-items-center hero-row">
           <Col lg={8} className="mx-auto text-center">
             <div className="glass-card hero-card" data-aos="fade-up">

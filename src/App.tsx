@@ -15,14 +15,14 @@ function App() {
   useEffect(() => {
     AOS.init({
       duration: 1000,
-      once: false,
+      once: true,
       offset: 100,
     });
   }, []);
 
   return (
     <ThemeProvider>
-      <div className="App">
+      <div className="App" style={{ width: '100%', maxWidth: '100%', minHeight: '100vh', margin: 0, padding: 0, overflowX: 'hidden' }}>
         <CustomNavbar />
         <Hero />
         <About />
