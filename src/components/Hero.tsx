@@ -55,7 +55,7 @@ const Hero: React.FC = () => {
                   className="mb-3 glass-btn"
                   as="a"
                   target='_blank'
-                  href="https://drive.google.com/file/d/1g7Kk2VE1G2vo2Wncarr3uY6D8Boi8C3I/view?usp=drivesdk"
+                  href="https://drive.google.com/file/d/1lVFXDNDfMXEZGMPfHOt2lMmHTCzGTK9L/view?usp=sharing"
                   // download="Chandra_Sekhar_Resume.pdf"
                 >
                   View CV
