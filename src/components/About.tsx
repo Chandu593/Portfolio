@@ -30,33 +30,12 @@ const About: React.FC = () => {
                   Creating Digital Experiences
                 </h4>
                 <p className="about-text mb-4">
-                  I am a passionate B.Tech IT undergraduate with a strong foundation in both frontend and backend technologies along with some programming languages.
-                  I specialize in modern web technologies like React.js, Node.js, MongoDB, and more and have a keen eye for design.
+                  M.Tech student specializing in Artificial Intelligence at IIIT Bhopal with a strong foundation in Machine Learning, Data Analytics, and Full-Stack Web Development. Experienced in building end-to-end ML pipelines, hybrid recommender systems, and MERN-stack applications. I enjoy turning raw data into decisions to solve real-world problems and looking for research and industry opportunities in ML and software development.
                 </p>
                 <p className="about-text mb-4">
                   I believe in continuous learning and a proper work-life balance.
                   When I'm not coding, you can find me enjoying travelling and trekking or exploring new technologies.
                 </p>
-                {/* <Row className="stats-row">
-                  <Col md={4} className="text-center mb-3">
-                    <div className="stat-card">
-                      <h3 className="stat-number">50+</h3>
-                      <p className="stat-label">Projects Completed</p>
-                    </div>
-                  </Col>
-                  <Col md={4} className="text-center mb-3">
-                    <div className="stat-card">
-                      <h3 className="stat-number">5+</h3>
-                      <p className="stat-label">Years Experience</p>
-                    </div>
-                  </Col>
-                  <Col md={4} className="text-center mb-3">
-                    <div className="stat-card">
-                      <h3 className="stat-number">25+</h3>
-                      <p className="stat-label">Happy Clients</p>
-                    </div>
-                  </Col>
-                </Row> */}
               </div>
             </div>
           </Col>

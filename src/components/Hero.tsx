@@ -35,7 +35,7 @@ const Hero: React.FC = () => {
                 Hi, I'm <span className="gradient-text">Chandra Sekhar</span>
               </h1>
               <h2 className="hero-subtitle" data-aos="fade-up" data-aos-delay="400">
-                B.Tech IT Undergraduate
+                M.Tech AI Postgraduate
               </h2>
               <p className="hero-description" data-aos="fade-up" data-aos-delay="600">
                 Eager to leverage my technical skills and problem-solving abilities to design, develop, and implement innovative software solutions.
@@ -55,8 +55,7 @@ const Hero: React.FC = () => {
                   className="mb-3 glass-btn"
                   as="a"
                   target='_blank'
-                  href="https://drive.google.com/file/d/1lVFXDNDfMXEZGMPfHOt2lMmHTCzGTK9L/view?usp=sharing"
-                  // download="Chandra_Sekhar_Resume.pdf"
+                  href="https://drive.google.com/file/d/1T7qVUgOdCf--Q4IDm31Ryz6V0d68e5Nj/view?usp=sharing"
                 >
                   View CV
                 </Button>

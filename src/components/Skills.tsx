@@ -4,15 +4,42 @@ import { Code, Wrench, Database, CheckCircle,CodeXml } from 'lucide-react';
 
 const Skills: React.FC = () => {
   const skillCategories = [{
-      title: 'Programming Languages',
+      title: 'Languages',
       icon: <Code size={24} />,
       skills: [
-        'C',
         'Python',
-        'Java',
+        'SQL',
         'JavaScript',
+        'C',
+        'Java',
       ]
   },
+    {
+      title: 'Machine Learning',
+      icon: <CodeXml size={24} />,
+      skills: [
+        'Scikit-learn',
+        'XGBoost', 
+        'FAISS', 
+        'Classification', 
+        'Regression', 
+        'Clustering', 
+        'SMOTE', 
+        'Hyperparameter Tuning', 
+        'OPTUNA'
+      ]
+    },
+    {
+      title: 'Data Science & Visualization',
+      icon: <CodeXml size={24} />,
+      skills: [
+        'Pandas', 
+        'NumPy', 
+        'Matplotlib', 
+        'Seaborn', 
+        'ydata-profiling'
+      ]
+    },
     {
       title: 'Frontend Development',
       icon: <CodeXml size={24} />,
@@ -43,9 +70,9 @@ const Skills: React.FC = () => {
       skills: [
         'Git',
         'GitHub',
+        'Google Colab',
         'Postman',
         'VS Code',
-        'Cursor',
       ]
     },
   ];

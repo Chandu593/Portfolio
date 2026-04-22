@@ -8,7 +8,7 @@ const Experience: React.FC = () => {
       title: 'Full Stack Developer',
       company: 'I & T Labs, Visakhapatnam',
       period: 'Jul 2023 – Nov 2023',
-      description: 'Contributed to the design and development of a dynamic college website UI using HTML, CSS, JavaScript, and Bootstrap. Focused on mobile responsiveness and clean UI architecture.',
+      description: 'Contributed to the design and development of a dynamic college website UI using React.js and Bootstrap. Focused on mobile responsiveness and clean UI architecture.',
       achievements: [
         'Designed and implemented a responsive UI',
         'Optimized performance for mobile devices',

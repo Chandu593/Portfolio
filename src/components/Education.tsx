@@ -5,6 +5,16 @@ import { GraduationCap, Calendar } from 'lucide-react';
 const Education: React.FC = () => {
   const educationHistory = [
     {
+      title: 'M.Tech in Artificial Intelligence',
+      institution: 'Indian Institute of Information Technology, Bhopal',
+      period: '2025 - 2027',
+      description: 'Pursuing postgraduate degree specializing in Artificial Intelligence, with core coursework in Machine Learning, Deep Learning, Computer Vision, Natural Language Processing and research work.',
+      achievements: [
+        'CGPA: 8.43/10',
+        'Developed a Hybrid Movie Recommender System (CineAI) using neural collaborative filtering, content-based technique, sentiment analysis, sequential model (transformer), deep model fusion and Lambda ranking algorithm',
+      ]
+    },
+    {
       title: 'B.Tech in Information Technology',
       institution: 'Andhra University College of Engineering, Visakhapatnam',
       period: '2021 - 2025',
@@ -81,14 +91,14 @@ const Education: React.FC = () => {
                         {item.description}
                       </p>
 
-                      <div className="timeline-achievements">
+                      {item.achievements?.length > 0 ? <div className="timeline-achievements">
                         <h6 style={{ fontSize: '0.9rem' }}>Key Achievements:</h6>
                         <ul style={{ fontSize: '0.85rem' }}>
                           {item.achievements.map((achievement, achIndex) => (
                             <li key={achIndex}>{achievement}</li>
                           ))}
                         </ul>
-                      </div>
+                      </div> : null}
                     </div>
                   </div>
                 </div>
